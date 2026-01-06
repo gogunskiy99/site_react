@@ -12,6 +12,7 @@ function Header() {
                                 <Nav.Link as={NavLink} to="/">Home</Nav.Link>
                                 <Nav.Link as={NavLink} to="/about">About us</Nav.Link>
                                 <Nav.Link as={NavLink} to="/contact">Contacts</Nav.Link>
+                                <Nav.Link as={NavLink} to="/blog">Blog</Nav.Link>
                             </Nav>
                         </Navbar.Collapse>
             </Container>

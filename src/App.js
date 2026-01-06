@@ -3,8 +3,7 @@ import Header from "./Components/Header";
 import Home from "./pages/Home"
 import Contacts from "./pages/Contacts"
 import About from "./pages/About"
-import MyCarousel from "./Components/Carousel"
-import "./App.css"
+import Blog from "./pages/Blog"
 
 function App() {
   return (
@@ -12,9 +11,10 @@ function App() {
     <Header/>
       <div>
         <Routes>
-          <Route path="/" element={<><MyCarousel/> <Home/></>}/>
+          <Route path="/" element={<Home/>}/>
           <Route path="/about" element={<About/>}/>
           <Route path="/contact" element={<Contacts/>}/>
+          <Route path="/blog" element={<Blog/>}/>
         </Routes>
       </div>
   </Router>
